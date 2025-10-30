@@ -1,0 +1,111 @@
+# ==============================
+# Python + Jupyter .gitignore
+# ==============================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+# Avoid committing temporary notebook autosaves
+*.nbconvert.ipynb
+
+# PyCharm / VSCode / IDE configs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment / virtualenv
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Logs and debugging
+*.log
+*.out
+*.err
+
+# Mac / Windows system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+~$*
+
+# Jupyter Notebook hidden checkpoints
+**/.ipynb_checkpoints/
+
+# Spyder project settings
+.spyproject/
+
+# Pyre type checker
+.pyre/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pylint
+pylint-report.txt
+pylint-output.txt
+
+# Local datasets / data dumps (optional — uncomment if needed)
+# data/
+# *.csv
+# *.xlsx
+# *.pkl
+# *.json
+
+# VSCode settings
+.vscode/
