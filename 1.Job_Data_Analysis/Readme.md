@@ -124,7 +124,7 @@ Future enhancements could include:
 
 ## 🧠 Author
 **Utkarsh Naik**  
-Data Analyst 
+- Data Analyst 
 - Contact : utkarsh.un@gmail.com
 - 💼 Passionate about leveraging AI and data-driven insights for real-world impact.  
 
