@@ -88,17 +88,10 @@ Through these projects, I’ve deepened my understanding of:
 
 ---
 
-## 🌟 Future Additions
-Upcoming projects to be added:
-- **Hotel Booking Cancellations Analysis**  
-- **Superstore Sales & Shipping Performance Dashboard**  
-- **AI-Powered Mental Health Chatbot (Create.xyz Project)**  
-- **Automation Scripts for Data Cleaning**
-
 ---
 
 ## 👨‍💻 Author
-**Utkarsh N.**  
+**Utkarsh Naik**  
 - Data Analyst | AI & Analytics Enthusiast  
 
 💬 Passionate about combining **data science**, **psychology**, and **technology** to build impactful applications.  
