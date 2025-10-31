@@ -31,7 +31,7 @@ Python_Projects/
 │ └── README.md
 │
 ├── (More Projects Coming Soon)
-│ │
+│ 
 └── README.md
 ```
 
