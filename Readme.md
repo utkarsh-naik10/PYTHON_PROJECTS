@@ -42,7 +42,7 @@ Each project folder is standalone — you can explore them independently or foll
 
 ## 🚀 Featured Project
 
-### 🔹 [Job Data Analysis](./Job_Data_Analysis/)
+### 🔹 [Job Data Analysis](./1.Job_Data_Analysis/)
 **Objective:** To analyze job market data for data-related roles and uncover insights about skills, salaries, and demand trends.  
 
 **Highlights:**
