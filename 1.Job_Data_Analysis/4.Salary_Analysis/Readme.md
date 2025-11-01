@@ -13,7 +13,8 @@ It also highlights which technical skills are most in-demand in the job market v
 ---
 ## 🖼️ Visualization
 
-![highest_paid_skills_&_top_in-demand_skills](./highest_paid_skills_&_top_in-demand_skills.png)
+![highest_paid_skills_&_top_in-demand_skills](./highest_paid_skills_&_top_in-demand_skills.png)  
+
 *Figure: highest paid skills and top-in demand skills.*
 
 ![salary_distribution](./salary_distribution.png)
