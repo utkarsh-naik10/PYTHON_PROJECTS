@@ -11,6 +11,13 @@ This part of the analysis focuses on the **monthly trend of technical skills** m
 By visualizing skill frequencies throughout the year, we can identify which tools and technologies maintained consistent demand and which ones showed fluctuations.
 
 ---
+## 🖼️ Visualization
+
+![trending_skills_for_data_analyst](./trending_skills_for_data_analyst.png)
+
+*Figure: Skill demand visualization across months.*
+
+---
 
 ## 🧠 Key Insights
 

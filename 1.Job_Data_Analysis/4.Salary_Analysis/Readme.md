@@ -11,6 +11,16 @@ This part of the project focuses on understanding **salary distribution** among 
 It also highlights which technical skills are most in-demand in the job market versus those that yield the highest salaries.
 
 ---
+## 🖼️ Visualization
+
+![highest_paid_skills_&_top_in-demand_skills](./highest_paid_skills_&_top_in-demand_skills.png)
+*Figure: highest paid skills and top-in demand skills.*
+
+![salary_distribution](./salary_distribution.png)
+
+*Figure: Skill demand visualization across Data Analyst, Data Engineer, and Data Scientist roles.*
+
+---
 
 ## 🧾 Key Insights
 

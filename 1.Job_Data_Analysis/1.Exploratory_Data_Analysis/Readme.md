@@ -13,7 +13,7 @@ The visuals below highlight how job postings are spread across locations, compan
 ---
 
 ## 1️⃣ Job Locations — Where Are Most Jobs Posted?
-**File:** `count_of_job_locations_for_Data_Analyst.png`
+![count_of_job_locations_for_Data_Analyst](./count_of_job_locations_for_Data_Analyst.png)
 
 - The **United States** leads by a large margin with over **67,000 job postings**, making it the primary hub for Data Analyst roles.  
 - Other top countries include **France (13K)**, **United Kingdom (10K)**, and **Germany (7K)**.  
@@ -24,7 +24,7 @@ The visuals below highlight how job postings are spread across locations, compan
 ---
 
 ## 2️⃣ Top Hiring Companies
-**File:** `count_of_top_companies_for_data_analyst.png`
+![count_of_top_companies_for_data_analyst](./count_of_top_companies_for_data_analyst.png)
 
 - **Emprego**, **Robert Half**, and **Insight Global** are among the top hiring companies.  
 - Other notable recruiters include **Citi**, **Dice**, and **UnitedHealth Group**.  
@@ -35,7 +35,7 @@ The visuals below highlight how job postings are spread across locations, compan
 ---
 
 ## 3️⃣ Work From Home, Degree & Insurance
-**File:** `pie_chart_for_WFH_Degree_&_Insuarance.png`
+![pie_chart_for_WFH_Degree_&_Insuarance](./pie_chart_for_WFH_Degree_&_Insuarance.png)
 
 - **Work From Home:** Only **6.8%** of jobs offer remote work options.  
 - **Degree Requirement:** About **38.7%** of job postings specifically require a degree.  
@@ -46,7 +46,7 @@ The visuals below highlight how job postings are spread across locations, compan
 ---
 
 ## 4️⃣ Top Job Posting Sources
-**File:** `top_5_job_posting_sources.png`
+![top_5_job_posting_sources](./top_5_job_posting_sources.png)
 
 - **LinkedIn** dominates as the leading source, accounting for **41%** of all job listings.  
 - **BeBee (25%)**, **Trabajo.org (15%)**, and **Indeed (13%)** follow as major contributors.  

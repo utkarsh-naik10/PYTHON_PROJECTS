@@ -11,6 +11,13 @@ This phase focuses on finding the **“sweet spot” skills** — those that are
 The visualization compares each skill’s **median salary** against its **frequency in job postings** to highlight the most rewarding skill sets for data professionals.
 
 ---
+## 🖼️ Visualization
+
+![most_optimal_skills_for_data_analyst](./most_optimal_skills_for_data_analyst.png)
+
+*Figure: Most in-demand skills for DATA ANALYST.*
+
+---
 
 ## 📈 Key Insights
 

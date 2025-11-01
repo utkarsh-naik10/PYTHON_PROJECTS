@@ -12,6 +12,13 @@ It helps understand what tools and technologies employers value most, allowing p
 
 ---
 
+## 🖼️ Visualization
+
+![Likelihood of Skill Requested in Job Postings](./likelihood_of_skill_requested_in_job_postings.png)
+
+*Figure: Skill demand visualization across Data Analyst, Data Engineer, and Data Scientist roles.*
+
+---
 ## 📈 Key Insights
 
 ### 1️⃣ Data Analyst
