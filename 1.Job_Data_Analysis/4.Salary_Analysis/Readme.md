@@ -1,72 +1,74 @@
-# 💰 4. Salary Analysis
+# 💰 Salary Analysis — Job Data Analysis
 
-## 📘 Introduction
-This notebook explores **how well different data jobs and skills pay**, focusing on both **role-based** and **skill-based** salary comparisons.  
-The analysis helps uncover which positions offer the highest compensation and which technical skills correlate with higher salaries in the data analytics field.
-
----
-
-## 🧩 Background
-The dataset provides detailed job postings, including salary data, company information, and required skills.  
-By analyzing salary patterns across roles and skills, we can better understand the **market value of technical competencies** in the data domain and how they vary by job level.
-
-This analysis aims to answer:
-- Which **data roles** offer the highest median salaries?  
-- Which **skills** are most lucrative for **Data Analysts**?  
-- How do salaries differ between **junior** and **senior** positions?
+**Project:** Job Data Analysis (Python)  
+**Phase:** Salary Analysis  
+**Objective:** Explore salary patterns across data-related roles and identify the highest-paying and most in-demand skills for Data Analysts.
 
 ---
 
-## 🛠️ Tools & Libraries Used
-- **Python**
-- **Pandas** → Data manipulation and aggregation  
-- **Matplotlib & Seaborn** → Salary visualization and comparison  
-- **Datetime** → Handling job posting dates  
-- **NumPy** → Statistical computation  
+## 📊 Overview
+This part of the project focuses on understanding **salary distribution** among data professionals and identifying **skills that influence earning potential**.  
+It also highlights which technical skills are most in-demand in the job market versus those that yield the highest salaries.
 
 ---
 
-## 🔍 Analysis Performed
-1. **Data Preparation**
-   - Filtered records containing valid yearly salary data (`salary_year_avg`).  
-   - Focused on top 6 job titles (Data Analyst, Data Scientist, Data Engineer, and senior variants).  
+## 🧾 Key Insights
 
-2. **Role-Based Salary Distribution**
-   - Used `Seaborn` boxplots to visualize salary spread across roles.  
-   - Sorted job titles by **median salary**.  
-   - Converted salary scale to a readable “K” format (e.g., 100K, 200K).
+### 1️⃣ Salary Distribution by Role
+**File:** `salary_distribution.png`
 
-3. **Skill-Based Salary Analysis**
-   - Isolated `Data Analyst` roles.  
-   - Calculated **median salaries by skill**.  
-   - Identified top 10 **highest-paying skills** for Data Analysts.  
+- **Senior roles** (Data Scientist, Data Engineer) show higher median salaries and greater variation due to diverse experience levels.  
+- **Senior Data Scientist** has the **highest median salary**, often exceeding **$200K**.  
+- **Data Analyst** and **Senior Data Analyst** positions have a tighter range, with most salaries between **$70K–$130K**.  
 
-4. **Comparison & Insights**
-   - Compared high-demand vs. high-paying skills.  
-   - Observed differences between analytical and programming tools.
+💡 *Insight:* Salary growth strongly correlates with role seniority and specialization. The pay gap between analyst and scientist/engineer roles reflects the skill depth and technical expertise required.
 
 ---
 
-## 💡 What I Learned
-- How to use **boxplots** to reveal salary distribution and outliers.  
-- How to combine **groupby()** with **median aggregation** for ranking.  
-- The strong correlation between **technical depth** and **salary level**.  
+### 2️⃣ Highest Paid vs Most In-Demand Skills
+**File:** `highest_paid_skills_&_top_in-demand_skills.png`
+
+#### 🔹 Top 10 Highest-Paid Skills
+- **dplyr**, **Bitbucket**, and **GitLab** top the list with average salaries around **$190K–$200K**.  
+- Other high-paying technologies include **Solidity**, **Hugging Face**, and **Couchbase**, reflecting growing niches in **AI**, **blockchain**, and **DevOps**.
+
+💼 *Insight:* Specialized tools in machine learning, data pipelines, and software collaboration bring higher pay, even if less frequently mentioned in postings.
+
+#### 🔹 Top 10 Most In-Demand Skills
+- **Python**, **Tableau**, and **R** lead demand, followed by **SQL** and **Power BI**.  
+- Business tools like **Excel**, **Word**, and **PowerPoint** also appear, showing a blend of technical and communication skills in analytics jobs.
+
+📈 *Insight:* While Python and visualization tools are most requested, the highest-paying skills tend to be in more **niche or technical areas** like MLOps, version control, or cloud frameworks.
 
 ---
 
-## 📊 Insights
-- **Senior Data Scientists** and **Senior Data Engineers** command the highest salaries.  
-- **Python**, **AWS**, and **SQL** appear frequently among high-paying roles.  
-- **Visualization tools** (e.g., Tableau, Power BI) also correlate with strong pay for Data Analysts.  
-- Entry-level and analyst roles show tighter salary bands compared to senior or engineering positions.
+## 📂 Folder Structure
+```
+/4.Salary_Analysis
+├── salary_distribution.png
+├── highest_paid_skills_&_top_in-demand_skills.png
+├── 4.Salary_Analysis.ipynb
+└── README.md
+```
 
 ---
 
-## 🧾 Conclusion
-Salary analysis reveals a clear trend — **advanced technical and cloud-based skills drive higher compensation**.  
-Key takeaways:
-- Invest in programming (Python, SQL) and cloud platforms (AWS, Azure).  
-- Specialization leads to higher salaries in the long term.  
-- Data roles show diverse pay scales, reflecting growing specialization in analytics and engineering.
+## 🧩 Summary
 
-This analysis provides a clear salary benchmark for aspiring data professionals and organizations aiming to attract top talent.
+| Aspect | Key Observation |
+|--------|-----------------|
+| 💼 **Top Salary Roles** | Senior Data Scientist & Senior Data Engineer lead earnings |
+| 🧠 **Skill Pay Gap** | Advanced tools (GitLab, Hugging Face) pay far more than general skills |
+| 📊 **In-Demand Skills** | Python, Tableau, SQL remain market staples |
+| 💡 **Overall Trend** | Specialized tech → higher pay; general skills → more demand |
+
+---
+
+## 🏁 Conclusion
+The analysis shows that while **Python, SQL, and Tableau** are essential for employability, the **highest-paying opportunities** lie in mastering **advanced frameworks and specialized tools** like GitLab, Couchbase, or cloud-based technologies.  
+Building expertise in **machine learning infrastructure and data engineering tools** provides the best long-term growth potential.
+
+---
+
+**📌 Author:** Utkarsh Naik  
+**📈 Project Type:** Salary & Skill Market Analysis (Python)

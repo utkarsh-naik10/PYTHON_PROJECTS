@@ -1,66 +1,58 @@
-# 📈 3. Skills Trend Analysis
+# 📈 Skills Trend — Job Data Analysis
 
-## 📘 Introduction
-This notebook explores how the **demand for different skills** in data-related roles — particularly *Data Analysts* — has evolved over time.  
-By analyzing monthly job postings and associated skills, the project identifies trends that reveal which technologies are rising or declining in popularity.
-
----
-
-## 🧩 Background
-The data industry evolves rapidly, with new tools and programming languages emerging every year.  
-This analysis investigates **temporal trends** in job skill requirements to answer:
-- Which technical skills are gaining momentum?
-- Are traditional tools still relevant?
-- How do monthly posting trends reflect shifts in demand?
-
-Understanding these trends helps job seekers and educators prioritize relevant skills in an ever-changing job market.
+**Project:** Job Data Analysis (Python)  
+**Phase:** Skills Trend Analysis  
+**Objective:** To track how the demand for specific Data Analyst skills has changed over time in 2023.
 
 ---
 
-## 🛠️ Tools & Libraries Used
-- **Python**
-- **Pandas** → Data manipulation and time-based grouping  
-- **Matplotlib & Seaborn** → Trend visualization over months  
-- **Datetime** → Extracting month and year from job posting dates  
-- **AST** → Parsing skill lists stored as strings  
+## 📊 Overview
+This part of the analysis focuses on the **monthly trend of technical skills** mentioned in job postings for Data Analyst roles.  
+By visualizing skill frequencies throughout the year, we can identify which tools and technologies maintained consistent demand and which ones showed fluctuations.
 
 ---
 
-## 🔍 Analysis Performed
-1. **Data Cleaning**
-   - Converted `job_posted_date` to `datetime`.  
-   - Parsed `job_skills` column from stringified lists into Python lists.  
-   - Filtered data for `Data Analyst` roles.
+## 🧠 Key Insights
 
-2. **Feature Engineering**
-   - Extracted posting month using `dt.month`.  
-   - Created a mapping from month number to month abbreviation.
+**File:** `trending_skills_for_data_analyst.png`
 
-3. **Skill Trend Analysis**
-   - Counted occurrences of each skill per month.  
-   - Created visualizations showing skill frequency trends.  
-   - Compared top 5 or 10 most common skills over time.
+- **SQL** remains the most in-demand skill across all months, consistently appearing in nearly **45–50%** of postings.  
+- **Excel** holds a steady position around **35%**, showing its continued relevance in reporting and analytics work.  
+- **Python** demand gradually increased toward the end of the year, catching up with Excel in December.  
+- **Tableau** and **Power BI** stayed lower (20–25%), but showed minor growth in the second half of the year.  
+
+💡 *Insight:* Employers continue to prioritize **SQL and Excel** for data analysts, but **Python** is clearly becoming more prominent, reflecting a shift toward automation and programming-based analytics.
 
 ---
 
-## 💡 What I Learned
-- How to analyze **time-series patterns** in categorical data.  
-- Effective use of **groupby()** and **pivot tables** for monthly summaries.  
-- How to visualize **dynamic skill demand** using line and area charts.  
+## 📂 Folder Structure
+```
+/3.Skills_Trend
+├── trending_skills_for_data_analyst.png
+├── 3.Skills_trend.ipynb
+└── README.md
+```
 
 ---
 
-## 📊 Insights
-- **SQL** and **Python** remain consistently dominant across months.  
-- Tools like **Power BI**, **Tableau**, and **Excel** show seasonal demand variation.  
-- **Cloud-based tools** and **advanced analytics platforms** are showing upward momentum.  
-- The number of job postings varies seasonally, reflecting hiring cycles.
+## 🧾 Summary of Skill Trends
+
+| Skill | 2023 Trend Summary | Remarks |
+|-------|--------------------|----------|
+| **SQL** | Consistently high demand (~48%) | Core requirement for data handling |
+| **Excel** | Stable demand (~35%) | Still a key business analysis tool |
+| **Python** | Gradual upward trend | Increasing adoption in analytics |
+| **Tableau** | Slight dip mid-year, minor recovery | Steady BI visualization tool |
+| **Power BI** | Lowest but growing steadily | Growing interest toward year-end |
 
 ---
 
-## 🧾 Conclusion
-Skill trend analysis reveals how **data-related job requirements evolve over time**:
-- Core tools remain essential, but **visualization and cloud technologies** are on the rise.  
-- Continuous learning and adaptability are key for data professionals.  
-- This analysis helps forecast the **future skill landscape** and guide targeted upskilling.
+## 🏁 Conclusion
+Throughout 2023, **SQL and Excel** continued to dominate job postings for data analysts.  
+However, **Python** showed a noticeable rise, signaling its growing importance in analytical workflows.  
+Visualization tools like **Tableau** and **Power BI** remain valuable complementary skills, especially for reporting and dashboard development.
 
+---
+
+**📌 Author:** Utkarsh Naik  
+**📈 Project Type:** Job Market & Skills Trend Analysis (Python)

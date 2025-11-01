@@ -1,63 +1,77 @@
-# 💼 2. Most In-Demand Skills for Data Roles
+# 💡 Most Demanded Skills for Data Roles — Job Data Analysis
 
-## 📘 Introduction
-This analysis identifies the **most demanded technical skills** for data professionals — including **Data Analysts**, **Data Scientists**, and **Data Engineers**.  
-By analyzing job postings, we uncover which tools and technologies appear most frequently, helping professionals and learners focus their upskilling efforts effectively.
-
----
-
-## 🧩 Background
-The demand for data-related roles continues to grow rapidly, but each role requires a distinct skill set.  
-This analysis aims to highlight:
-- Which skills are **most frequently requested** in job descriptions.
-- How skill requirements **differ by role** (Analyst vs. Scientist vs. Engineer).
-- Emerging tools and programming languages shaping the job market.
+**Project:** Job Data Analysis (Python)  
+**Phase:** Skill Demand Analysis  
+**Objective:** Identify which technical skills are most frequently requested across different data-related job roles — *Data Analyst*, *Data Engineer*, and *Data Scientist.*
 
 ---
 
-## 🛠️ Tools & Libraries Used
-- **Python**
-- **Pandas** → Data processing and aggregation  
-- **Matplotlib & Seaborn** → Visualization of skill demand  
-- **AST** → Parsing skill lists from stringified format  
-- **Jupyter Notebook** → Interactive analysis and visualization  
+## 📊 Overview
+This part of the analysis looks at the **likelihood of various skills appearing in job postings** for each major data role.  
+It helps understand what tools and technologies employers value most, allowing professionals to focus on skills with the highest market demand.
 
 ---
 
-## 🔍 Analysis Performed
-1. **Data Preparation**
-   - Cleaned and parsed the `job_skills` column (converted from string to list).
-   - Filtered relevant job titles: *Data Analyst*, *Data Scientist*, and *Data Engineer*.
+## 📈 Key Insights
 
-2. **Skill Frequency Analysis**
-   - Used `explode()` to create one record per skill.  
-   - Grouped and counted the frequency of each skill across roles.
+### 1️⃣ Data Analyst
+**File:** `likelihood_of_skill_requested_in_job_postings.png` (Top section)
 
-3. **Visualization**
-   - Created bar plots showing top 10 most demanded skills for each role.  
-   - Used consistent color palettes for easy comparison across roles.
+- **SQL** is the most requested skill (47%), followed by **Excel (34%)** and **Python (29%)**.  
+- Visualization tools like **Tableau (23%)** and **Power BI (20%)** also appear frequently.  
+
+💡 *Insight:* Employers expect strong SQL and Excel proficiency for data analysts, with Python and BI tools becoming increasingly important.
 
 ---
 
-## 💡 What I Learned
-- How to use **`explode()`** for skill-based frequency analysis.  
-- Importance of **role-based segmentation** for accurate demand estimation.  
-- Efficiently visualizing **categorical frequency data** using Seaborn.  
+### 2️⃣ Data Engineer
+**File:** `likelihood_of_skill_requested_in_job_postings.png` (Middle section)
+
+- **SQL (60%)** and **Python (58%)** are core skills across nearly all data engineering roles.  
+- Cloud and big data tools like **AWS (33%)**, **Azure (32%)**, and **Spark (29%)** are also highly valued.  
+
+💡 *Insight:* Modern data engineering requires both coding and cloud expertise — SQL and Python remain the base, while AWS and Azure add strong employability advantages.
 
 ---
 
-## 📊 Insights
-- **SQL** and **Python** dominate across all data-related roles.  
-- **Excel** remains highly relevant for *Data Analysts*.  
-- **Cloud and Big Data tools** (e.g., AWS, Spark) are crucial for *Data Engineers*.  
-- **Machine learning libraries** (TensorFlow, scikit-learn) are in high demand for *Data Scientists*.  
+### 3️⃣ Data Scientist
+**File:** `likelihood_of_skill_requested_in_job_postings.png` (Bottom section)
+
+- **Python** dominates (66%), making it the top skill for data science roles.  
+- **SQL (46%)** and **R (35%)** are also key.  
+- **SAS (17%)** and **Tableau (17%)** appear in niche roles requiring statistical analysis and reporting.  
+
+💡 *Insight:* Python has become the universal language for data science. However, complementary skills like SQL and R remain essential for database work and statistical modeling.
 
 ---
 
-## 🧾 Conclusion
-The analysis reveals that while the core skills overlap, each data role has distinct technical requirements:
-- **Data Analysts** → Excel, SQL, Tableau  
-- **Data Scientists** → Python, ML, Statistical tools  
-- **Data Engineers** → SQL, Spark, AWS, ETL tools  
+## 📂 Folder Structure
+```
+/2.Most_Demanded_Skills_for_Data_Roles
+├── likelihood_of_skill_requested_in_job_postings.png
+├── 2.Most_Demanded_Skills_for_Data_Roles.ipynb
+└── README.md
+```
 
-This insight helps aspiring professionals align their learning paths with market trends and prioritize the most impactful skills for career advancement.
+
+---
+
+## 🧾 Summary
+
+| Role | Top Skills | Key Takeaway |
+|------|-------------|--------------|
+| **Data Analyst** | SQL, Excel, Python, Tableau | Strong focus on data handling and reporting |
+| **Data Engineer** | SQL, Python, AWS, Azure | High demand for cloud and big data skills |
+| **Data Scientist** | Python, SQL, R | Python dominates, supported by statistical tools |
+
+---
+
+## 🏁 Conclusion
+Across all roles, **Python and SQL** consistently appear as must-have skills.  
+For engineers, **cloud platforms** like AWS and Azure are becoming essential, while analysts benefit from **Excel and BI tools**.  
+This analysis clearly shows that mastering a **core combination of SQL, Python, and visualization tools** provides strong career flexibility across data fields.
+
+---
+
+**📌 Author:** Utkarsh Naik  
+**📈 Project Type:** Job Market & Skill Demand Analysis (Python)
