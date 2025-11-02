@@ -171,15 +171,6 @@ Reveals how certain commodities (like Mustard and Green Chilli) peak between **J
 
 ---
 
-## 🧩 Future Scope
-
-- Apply **forecasting models (ARIMA, Prophet)** for price prediction.  
-- Add **interactive dashboards (Plotly, Streamlit)**.  
-- Include **profitability metrics** (when profit data available).  
-- Integrate **geo-mapping** for state/district visualization.  
-
----
-
 ## 👨‍💻 Author
 
 **Utkarsh Naik**  
