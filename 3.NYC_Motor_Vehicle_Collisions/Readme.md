@@ -15,8 +15,24 @@ Through data cleaning, visualization, and analysis, this project reveals key ins
 - Major contributing factors  
 - Geographic crash hotspots  
 
-> 📂 **Dataset Source:**  
-> [Motor Vehicle Collisions – Crashes (NYC Open Data)](https://catalog.data.gov/dataset/motor-vehicle-collisions-crashes)
+---
+
+### 📁 Dataset Information
+
+The dataset used in this project is stored in a `.parquet` format (~75 MB).  
+Due to GitHub’s file size limits, it is **not included** in this repository.  
+
+You can explore and access the full dataset and analysis notebook here on Kaggle:  
+➡️ [**NYC Motor Vehicle Collisions – Kaggle Notebook**](https://www.kaggle.com/code/utkarsh1093/nyc-motor-vehicle-collisions)
+
+**Original Dataset Source:**  
+📊 [Motor Vehicle Collisions – Crashes (NYC Open Data)](https://catalog.data.gov/dataset/motor-vehicle-collisions-crashes)
+
+For quick reference, this repository contains:  
+- Cleaned analysis notebooks (`.ipynb`)  
+- Visualizations and insights (`.png`)  
+- Folder-wise documentation (`README.md` files)  
+
 
 ---
 
