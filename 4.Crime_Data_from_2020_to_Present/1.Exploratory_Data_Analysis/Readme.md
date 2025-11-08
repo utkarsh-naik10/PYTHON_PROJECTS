@@ -129,5 +129,5 @@ This folder focuses on **visual analysis and insights** derived from the Los Ang
 
 ---
 
-**Next Step:**
-Prepare the `2.Data_Visualization_and_Modeling` folder to include predictive analysis (ARIMA or Prophet) and regional risk segmentation based on this EDA.
+## Author
+**Utkarsh Naik**
