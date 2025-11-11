@@ -63,7 +63,7 @@ It focuses on understanding victim profiles, weapon usage, and how age, gender, 
 
 ## 6️⃣ Victim Descent vs Area Comparison
 
-![Victim Descent vs Area Comparison](Victim%20Descent%20vs%20Area%20Comparison.png)
+![Victim Descent vs Area Comparison](Victim%20Descent%20vs%20Area%20Comparisons.png)
 
 **Insights:**
 - **77th Street, Newton, and Hollenbeck** have high counts for both **Black** and **Hispanic/Latin** victims.
