@@ -37,12 +37,19 @@ Python_Projects/
 │
 ├── 3.NYC_Motor_Vehicle_Collisions/
 │ ├── 1.Exploratory_Data_Analysis/
-│ ├── 2.Severity_&_Victim_Analysis/
+│ ├── 2.Severity_&Victim_Analysis/
 │ ├── 3.Vehicle_Type_Analysis/
 │ ├── 4.Contributing_Factors/
 │ ├── 5.Geographic_Analysis/
 │ ├── NYC_Crashes_Dataset.csv
 │ └── README.md
+│
+├── 4.Crime_Data_from_2020_to_Present/
+│ ├── 1.Exploratory_Data_Analysis/
+│ ├── 2.Severity&Victim_Analysis/
+│ ├── 3.Vehicle_Type&Premise_Analysis/
+│ ├── 4.Contributing_Factors&_Crime_Characteristics/
+│ ├── README.md
 │
 └── README.md
 ```
@@ -54,44 +61,44 @@ Each project can be explored independently or followed sequentially to understan
 ## 🚀 Featured Projects
 
 ### 🔹 [Job Data Analysis](./1.Job_Data_Analysis/)
-**Objective:** To analyze job market data for data-related roles and uncover insights about **skills**, **salaries**, and **demand trends**.  
-
+**Objective:** Analyze job market data for data-related roles and uncover insights about **skills**, **salaries**, and **demand trends**.  
 **Highlights:**
-- Explored **10,000+ job postings** for Data Analysts, Scientists, and Engineers  
-- Identified **top in-demand skills** and **salary trends**  
-- Created **time-based skill visualizations**  
-- Discovered **optimal skill combinations** balancing high pay and demand  
-
-📁 *Each phase (EDA, Skills, Trends, Salary, Optimal Skills) has its own notebooks, result images, and documentation.*
+- Explored **10,000+ job postings**  
+- Identified in-demand skills and salary patterns  
+- Time-based skill trends and optimal skill combinations  
 
 ---
 
 ### 🔹 [Commodity Price Analysis (India)](./2.Commodity_Price_Analysis_India/)
-**Objective:** To explore **daily commodity price trends in India (2001–2025)** and analyze fluctuations in key agricultural products.  
-
+**Objective:** Explore **daily commodity price trends in India (2001–2025)** for major agricultural products.  
 **Highlights:**
-- Cleaned and analyzed **multi-year commodity data** from markets across India  
-- Identified **seasonal and yearly price fluctuations**  
-- Visualized trends for commodities like **rice, wheat, pulses, and vegetables**  
-- Compared **regional variations** and **price volatility** over time  
-
-📊 *Includes time-series visualizations, moving averages, and yearly comparisons.*
-
-📁 *Folder contains result images, the main notebook, and a project-level README.*
+- Multi-year price patterns  
+- Regional variations and volatility  
+- Time-series visualizations  
 
 ---
 
 ### 🔹 [NYC Motor Vehicle Collisions Analysis](./3.NYC_Motor_Vehicle_Collisions/)
-**Objective:** To analyze NYC motor vehicle crash data to identify **patterns, hotspots, and contributing factors** influencing road safety.  
+**Objective:** Analyze NYC crash data to identify **patterns, hotspots, and contributing factors**.  
+**Highlights:**
+- Borough-wise crash trends  
+- Peak accident hours  
+- Fatality rates for different vehicle types  
+
+---
+
+### 🔹 [Crime Data from 2020 to Present](./4.Crime_Data_from_2020_to_Present/)
+**Objective:** Analyze LAPD crime data from **2020 onwards** to understand crime trends, victim patterns, contributing factors, and high-risk locations.  
 
 **Highlights:**
-- Explored **time, location, and vehicle-based crash patterns**  
-- Found **Brooklyn** as the most accident-prone borough  
-- **Afternoons (2–6 PM)** and **Fridays** have the most crashes  
-- **Motorcycles** show the **highest fatality rate (~2.5%)**  
-- Identified crash hotspots by **borough, street, and zip code**  
+- Complete Python analysis using real LAPD crime records  
+- 4 structured modules:  
+  - **Exploratory Analysis** (trends by year, month, area)  
+  - **Victim & Severity Analysis** (age, gender, descent, weapons)  
+  - **Vehicle & Premise Analysis** (vehicle crimes, locations, timings)  
+  - **Contributing Factors & Crime Characteristics** (MO-codes, case status, weapon links)  
+- Over **40 visualizations**  
 
-📊 *Dataset:* [Motor Vehicle Collisions – Crashes (NYC Open Data)](https://catalog.data.gov/dataset/motor-vehicle-collisions-crashes)
 
 ---
 
@@ -111,20 +118,20 @@ Each project can be explored independently or followed sequentially to understan
 ## 🧩 Skills Demonstrated
 - Data Cleaning & Preprocessing  
 - Exploratory Data Analysis (EDA)  
-- Data Visualization & Storytelling  
 - Statistical & Trend Analysis  
-- Time-Series Insights  
-- Price and Crash Pattern Analysis  
-- GitHub Project Documentation  
+- Time-Series Study  
+- Data Visualization & Storytelling  
+- Pattern Recognition & Insight Building  
+- GitHub Documentation  
 
 ---
 
 ## 🧠 Learning Outcomes
-Through these projects, I’ve enhanced my ability to:
-- Perform **end-to-end data analysis** using Python  
-- Present **real-world insights visually and clearly**  
-- Build structured, portfolio-ready projects  
-- Communicate findings effectively for both technical and non-technical audiences  
+Through these projects, I’ve strengthened my ability to:
+- Carry out **end-to-end analysis** on real datasets  
+- Structure analytics projects professionally  
+- Translate raw data into **clear insights and visuals**  
+- Present findings in a simple, accessible way  
 
 ---
 
@@ -134,13 +141,12 @@ Data Analyst | AI & Analytics Enthusiast
 
 💬 Passionate about blending **data science**, **psychology**, and **technology** to deliver impactful insights.  
 
-🌐 **Connect With Me:**  
-📧 [utkarsh.un@gmail.com](#)
+📧 **Email:** utkarsh.un@gmail.com  
 
 ---
 
 ## 🏁 Repository Highlights
-⭐ Cleanly structured, modular projects  
-📊 Data-driven insights and visualizations  
-📘 Well-documented notebooks and READMEs  
-💡 Real-world datasets used for meaningful analysis  
+⭐ Clean, modular project structure  
+📊 Strong visual storytelling  
+📘 Well-documented analyses  
+💡 Real-world datasets across multiple domains  
