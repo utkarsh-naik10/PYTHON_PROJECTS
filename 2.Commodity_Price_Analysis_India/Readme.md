@@ -175,7 +175,7 @@ Reveals how certain commodities (like Mustard and Green Chilli) peak between **J
 
 **Utkarsh Naik**  
 - Data Analyst 
-- Contact : utkarsh.un@gmail.com
+- Contact : utkarshnaik.in@gmail.com  
 - 💼 Passionate about leveraging AI and data-driven insights for real-world impact.  
 ---
 
