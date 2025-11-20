@@ -141,7 +141,7 @@ Data Analyst | AI & Analytics Enthusiast
 
 💬 Passionate about blending **data science**, **psychology**, and **technology** to deliver impactful insights.  
 
-📧 **Email:** utkarsh.un@gmail.com  
+📧 **Email:** utkarshnaik.in@gmail.com    
 
 ---
 
