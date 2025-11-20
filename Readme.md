@@ -149,4 +149,4 @@ Data Analyst | AI & Analytics Enthusiast
 ⭐ Clean, modular project structure  
 📊 Strong visual storytelling  
 📘 Well-documented analyses  
-💡 Real-world datasets across multiple domains  
+💡 Real-world datasets across multiple domains    
