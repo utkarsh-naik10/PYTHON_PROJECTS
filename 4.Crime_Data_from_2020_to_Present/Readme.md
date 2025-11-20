@@ -112,4 +112,4 @@ This makes the project useful for:
 
 ## ✍️ AUTHOR  
 **UTKARSH NAIK**  
-**EMAIL: utkarsh.un@gmail.com**
+**EMAIL: utkarshnaik.in@gmail.com**
