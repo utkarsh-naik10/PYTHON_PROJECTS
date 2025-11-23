@@ -105,7 +105,7 @@ This makes the project useful for:
 - Portfolio demonstration  
 
 ---
-## Checkout the full dashboard  
+## 🖥️ Checkout the full dashboard  
 🔗 **[Power BI Dashboard Version](https://github.com/utkarsh-naik10/POWER_BI_PROJECTS/tree/main/3.LAPD_Crime_Data_2020-2025)**
 
 ---
